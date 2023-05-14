@@ -1,0 +1,16 @@
+
+1. Clear the command window, clear all variables from the workspace, and close all figures.
+2. Define the time range `t` as an array from -10 to 10 with a step size of 1.
+3. Create a logical array `unitstep` where each element is true (`1`) if the corresponding element in `t` is greater than or equal to 0 and false (`0`) otherwise.
+4. Create a logical array `unitsample` where each element is true (`1`) if the corresponding element in `t` is equal to 0 and false (`0`) otherwise.
+5. Create the array `unitramp` by element-wise multiplication of `t` and `unitstep`.
+6. Create the first subplot with a grid for the plot of the unit step signal using `stem(t, unitstep)`.
+7. Set the x-axis label as 'Time', y-axis label as 'Amplitude', and title as 'Unit Step Discrete Time'.
+8. Enable the grid for the first subplot.
+9. Create the second subplot with a grid for the plot of the unit sample signal using `stem(t, unitsample)`.
+10. Set the x-axis label as 'Time', y-axis label as 'Amplitude', and title as 'Unit Sample Discrete Time'.
+11. Enable the grid for the second subplot.
+12. Create the third subplot with a grid for the plot of the unit ramp signal using `stem(t, unitramp)`.
+13. Set the x-axis label as 'Time', y-axis label as 'Amplitude', and title as 'Unit Ramp Discrete Time'.
+14. Enable the grid for the third subplot.
+15. End of the code.

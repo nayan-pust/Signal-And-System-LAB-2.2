@@ -1,0 +1,16 @@
+
+
+1. Clear the command window, clear all variables from the workspace, and close all figures.
+2. Define the frequency vector w as a range from 0 to pi with 501 points.
+ The division by 500 scales the range to [0, pi].
+3. Calculate the frequency response H(w) by evaluating the transfer function at each frequency point
+. The expression exp(1i*w) represents e^(jw).
+4. Calculate the magnitude response magH by taking the absolute value of H.
+5. Calculate the phase response angH by taking the angle of H.
+6. Create a subplot with 2 rows and 1 column.
+7. In the first subplot (top subplot), plot the magnitude response magH versus w/pi. The grid is enabled.
+8. Set the title of the subplot as 'Magnitude Response', x-axis label as 
+'Frequency in pi units', and y-axis label as 'Magnitude |H|'.
+9. In the second subplot (bottom subplot), plot the phase response angH/pi versus w/pi. The grid is enabled.
+10. Set the title of the subplot as 'Phase Response', x-axis label as 
+'Frequency in pi units', and y-axis label as 'Phase in pi radians'.

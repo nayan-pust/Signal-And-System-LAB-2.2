@@ -1,0 +1,12 @@
+1. Clear the command window, clear all variables from the workspace, and close all figures.
+2. Define the index range `n` as an array from -5 to 5.
+3. Define the sequence `x` using the following expression:
+   - If (n+2) equals zero, assign the value 2 to the corresponding element in `x`.
+   - If (n-4) equals zero, subtract 1 from the corresponding element in `x`.
+   - Otherwise, assign zero to the corresponding element in `x`.
+4. Plot the sequence using `stem(n, x)`. The `stem` function is used to create a stem plot, where each value of `x` is plotted as a vertical stem at the corresponding `n` value.
+5. Set the title of the plot as 'Plot of x(n) = 2*del(n+2)-del(n-4)'.
+6. Set the x-axis label as 'n' and the y-axis label as 'x(n)'.
+7. Set the axis limits to [-6, 6, -3, 3] to adjust the plot's range.
+8. Enable the grid for the plot.
+9. End of the code.

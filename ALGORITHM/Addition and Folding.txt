@@ -1,0 +1,21 @@
+1.Clear the command window, workspace, and close all figures.
+2.Create a new figure window (Figure 1).
+3.Define two signals, x1 and x2, along with their corresponding sample indices n1 and n2.
+4.Create the first subplot in Figure 1 and plot x1 against n1 using stem plot.
+5.Set the title, labels, axis limits, and grid for the subplot.
+6.Create the second subplot in Figure 1 and plot x2 against n2 using stem plot.
+7.Set the title, labels, axis limits, and grid for the subplot.
+8.Determine the range of indices m that covers both n1 and n2.
+9.Initialize an empty array y1 and iterate over m. If an index in m is outside the range of n1, set the corresponding value in y1 to 0; otherwise, assign the corresponding value from x1 to y1.
+10.Initialize an empty array y2 and iterate over m. If an index in m is outside the range of n2, set the corresponding value in y2 to 0; otherwise, assign the corresponding value from x2 to y2.
+11.Compute the sum of y1 and y2 element-wise to obtain the array y.
+12.Create the third subplot in Figure 1 and plot y against m using stem plot.
+13.Set the title, labels, axis limits, and grid for the subplot.
+14.Create a new figure window (Figure 2).
+15.Define a signal x and its sample indices m.
+16.Create the first subplot in Figure 2 and plot x against m using stem plot.
+17.Set the title, labels, axis limits, and grid for the subplot.
+18.Reverse the signal x using fliplr and reverse the sample indices -m.
+19.Create the second subplot in Figure 2 and plot the reversed signal xbar against the reversed indices nbar using stem plot.
+20.Set the title, labels, axis limits, and grid for the subplot.
+21.End of the code

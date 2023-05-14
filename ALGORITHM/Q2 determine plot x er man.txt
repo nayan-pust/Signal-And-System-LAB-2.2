@@ -1,0 +1,19 @@
+1. Clear the command window, clear all variables from the workspace, and close all figures.
+2. Define the input signal `x` as an array `[1 2 3 4 5 6 7 6 5 4 3 2 1]` and the corresponding time indices `n` as `(-2:10)`.
+3. Create the first subplot with a grid for the plot of `x(n)` using `stem(n, x)`.
+4. Set the title as 'Plot of x(n)', x-axis label as 'n', y-axis label as 'x(n)', and adjust the axis limits.
+5. Shift `x(n)` by adding a constant value of 5 to `n` to obtain `x(n-5)`.
+6. Create the second subplot with a grid for the plot of `x(n-5)` using `stem(n1, x)`.
+7. Set the title as 'Plot of x(n-5)', x-axis label as 'n', y-axis label as 'x(n-5)', and adjust the axis limits.
+8. Shift `x(n)` by subtracting a constant value of 4 from `n` to obtain `x(n+4)`.
+9. Create the third subplot with a grid for the plot of `x(n+4)` using `stem(n2, x)`.
+10. Set the title as 'Plot of x(n+4)', x-axis label as 'n', y-axis label as 'x(n+4)', and adjust the axis limits.
+11. Compute `y(n)` using the given formula `y(n) = 2*x(n-5) - 3*x(n+4)`.
+12. Define a time vector `m` that covers the common range of `n1` and `n2`.
+13. Initialize arrays `y1` and `y2` with zeros.
+14. Populate `y1` and `y2` by extracting the corresponding values from `x` based on `n1` and `n2`.
+15. Compute `y` as `2*y1 - 3*y2`.
+16. Create the fourth subplot with a grid for the plot of `y(n)` using `stem(m, y)`.
+17. Set the title as 'Plot of y(n)', x-axis label as 'n', y-axis label as 'y(n)', and adjust the axis limits.
+18. Enable the grid for the fourth subplot.
+19. End of the code.

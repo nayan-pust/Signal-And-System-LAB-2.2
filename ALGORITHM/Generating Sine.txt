@@ -1,0 +1,19 @@
+1. Clear the command window, close all figures, and clear all variables from the workspace.
+2. Set the frequency of the first signal to `f = 20` Hz.
+3. Calculate the period of the first signal using `t = 1/f`.
+4. Define a time vector `t1` from 0 to 1 with a step size of `t/100`.
+5. Set the amplitude of the first signal to `a = t`.
+6. Generate the first signal `y` as `a*sin(2*pi*f*t1)`.
+7. Create the first subplot with a grid for the first signal plot.
+8. Plot the first signal `y` against `t1` using `plot()`.
+9. Set the x-axis label as 't', y-axis label as 'Amplitude', and enable the grid.
+10. Set the amplitude of the second signal to `Am = 1`.
+11. Set the frequency of the modulating signal to `fm = 5` Hz.
+12. Define a time vector `t` from 0 to 1 with a step size of 0.001.
+13. Calculate the angular frequency of the modulating signal using `wm = 2*pi*fm`.
+14. Generate the modulating signal `msg_sig` as `Am*sin(wm*t)`.
+15. Create the second subplot with a grid for the modulating signal plot.
+16. Plot the modulating signal `msg_sig` against `t` using `plot()`.
+17. Set the x-axis label as 't', y-axis label as 'Amplitude', and enable the grid.
+18. End of the code.
+

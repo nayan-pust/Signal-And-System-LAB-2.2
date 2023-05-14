@@ -1,0 +1,14 @@
+1. Clear the command window, clear all variables from the workspace, and close all figures.
+2. Define a frequency range `f` from -2 to 2 with a step size of 0.001.
+3. Define the signal `x` as `4*sinc(4*pi*f)`. This represents a sinc function modulated by a factor of 4.
+4. Create the first subplot with a grid for the real part of the signal plot.
+5. Plot the real part of `x` against `f` using `plot()`.
+6. Set the x-axis label as 'Time', y-axis label as 'Amplitude', and title as 'Real part'.
+7. Create the second subplot with a grid for the magnitude part of the signal plot.
+8. Plot the magnitude (absolute value) of `x` against `f` using `plot()`.
+9. Set the x-axis label as 'Time', y-axis label as 'Amplitude', and title as 'Magnitude part'.
+10. Create the third subplot with a grid for the phase part of the signal plot.
+11. Plot the phase angle of `x` against `f` using `plot()`.
+12. Set the x-axis label as 'Time', y-axis label as 'Amplitude', and title as 'Phase part'.
+13. Enable the grid for all subplots.
+14. End of the code.

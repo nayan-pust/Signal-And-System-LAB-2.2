@@ -1,0 +1,18 @@
+
+
+1. Clear the command window, close all figures, and clear all variables from the workspace.
+2. Define the input signal x as an array [1 1 1 1].
+3. Set N as 4, which represents the length of the DFT.
+4. Plot the input signal using `stem(0:N-1, x)`. The `stem` function is used to create a stem plot, where each value of x is plotted as a vertical stem at the corresponding index.
+5. Set the x-axis label as 'n', the y-axis label as 'x(n)', and the title as 'Input Signal'.
+6. Enable the grid for the plot.
+7. Initialize an array y of size N to store the DFT values.
+8. Perform the DFT computation using nested loops:
+   - The outer loop iterates over the frequency index k from 0 to N-1.
+   - The inner loop iterates over the time index n from 0 to N-1.
+   - Compute the DFT value at index k using the formula y(k) = ∑[x(n) * e^(-j*2*pi*k*n/N)].
+9. Display the computed DFT values using `disp(y)`.
+10. Plot the absolute values of the DFT using `stem(0:N-1, abs(y))`.
+11. Set the x-axis label as 'k', the y-axis label as 'x(k)', and the title as 'DFT Values'.
+12. Enable the grid for the plot.
+13. End of the code.

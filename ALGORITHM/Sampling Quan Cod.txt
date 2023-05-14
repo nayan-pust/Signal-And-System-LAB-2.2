@@ -1,0 +1,21 @@
+1. Clear the command window, close all figures, and clear all variables from the workspace.
+2. Set the amplitude of the continuous-time signal to `A = 4` and the frequency to `f = 5`.
+3. Define a time vector `t` from 0 to 1 with a step size of 0.01.
+4. Generate the continuous-time signal `x` as `A*sin(2*pi*f*t)`.
+5. Create the first subplot with a grid for the continuous-time signal plot.
+6. Plot `x` against `t` using `plot()`.
+7. Set the title, x-axis label as 'Time', y-axis label as 'Amplitude', and enable the grid for the subplot.
+8. Create the second subplot with a grid for the sampled (discrete-time) signal plot.
+9. Plot `x` against `t` using `stem()`.
+10. Set the title, x-axis label as 'Time', y-axis label as 'Amplitude', and enable the grid for the subplot.
+11. Add the DC level to the discrete-time signal by adding `x` to `A`.
+12. Create the third subplot with a grid for the DC level + discrete-time signal plot.
+13. Plot `x1` against `t` using `stem()`.
+14. Set the title, x-axis label as 'Time', y-axis label as 'Amplitude', and enable the grid for the subplot.
+15. Quantize the values of `x1` by rounding them to the nearest integer using `round()`.
+16. Create the fourth subplot with a grid for the quantized signal plot.
+17. Plot `x2` against `t` using `stem()`.
+18. Set the title, x-axis label as 'Time', y-axis label as 'Amplitude', and enable the grid for the subplot.
+19. Convert the quantized signal `x2` to a binary representation using `dec2bin()`.
+20. Display the binary representation of `x2` using `disp()`.
+21. End of the code.
